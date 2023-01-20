@@ -20,8 +20,10 @@ body {
 
 .grid_item {
   display: flex;
-  text-align: center;
-  aspect-ratio: 1;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  aspect-ratio: 1;
+  color: transparent;
 }
