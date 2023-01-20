@@ -10,9 +10,8 @@ body {
 
 .sketch_container {
   display: grid;
-  align-items: center;
   width: 600px;
-  height: 600px;
+  align-items: center;
   grid-template-rows: repeat(var(--grid-rows), 1fr);
   grid-template-columns: repeat(var(--grid-cols), 1fr);
   border: 1px solid black;
@@ -20,5 +19,9 @@ body {
 }
 
 .grid_item {
+  display: flex;
   text-align: center;
+  aspect-ratio: 1;
+  align-items: center;
+  justify-content: center;
 }
