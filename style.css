@@ -1,0 +1,21 @@
+:root {
+  --grid-rows: 1;
+  --grid-cols: 1;
+}
+
+body {
+  margin: 40px 80px;
+  padding: 0;
+}
+
+.sketch_container {
+  display: grid;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+  border: 1px solid black;
+}
+
+.grid_item {
+  text-align: center;
+
+}
